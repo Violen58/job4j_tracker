@@ -7,9 +7,6 @@ public class Error {
     private String message;
 
     public Error() {
-        active = true;
-        status = 1;
-        message = "File not found";
     }
 
     public Error(boolean active, int status, String message) {
